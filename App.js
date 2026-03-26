@@ -84,7 +84,7 @@ const congratulationMessage = (message) => {
      if (message ==="Tie"){
          congratulation.firstElementChild.innerHTML = "<h1> Its a Tie </h1> <h2> Thanks for playing </h2>"
      }else{
-         congratulation.firstElementChild.lastElementChild.textContent = `${message} wins`
+         congratulation.firstElementChild.innerHTML = `<h1> ${message} wins </h1> <h2> Thanks for playing </h2>`
      }
 }
 
